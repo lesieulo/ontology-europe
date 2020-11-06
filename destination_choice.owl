@@ -1,0 +1,1077 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/louis/ontologies/2020/10/europe"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/louis/ontologies/2020/10/europe">
+    <Prefix name="" IRI="http://www.semanticweb.org/louis/ontologies/2020/10/europe"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DomainThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasActivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasCity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasClimate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsActivityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsCityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WantsActivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WantsClimate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WantsCountry"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasFreeTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IsDistance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Athens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beach"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Berlin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClimateAverage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClimateCold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClimateHot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Culture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#France"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gastronomy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Germany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Greece"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lili"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#London"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Louis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lyon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Madrid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Milano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moscow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#München"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Natalia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Novossibirsk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Russia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stockholm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thomas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Warsow"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Activity"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climate"/>
+        <Class IRI="#ValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Athens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity"/>
+        <NamedIndividual IRI="#Beach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Berlin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Climate"/>
+        <NamedIndividual IRI="#ClimateAverage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Climate"/>
+        <NamedIndividual IRI="#ClimateCold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Climate"/>
+        <NamedIndividual IRI="#ClimateHot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity"/>
+        <NamedIndividual IRI="#Culture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Greece"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Lili"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#London"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Louis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Lyon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Madrid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Milano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity"/>
+        <NamedIndividual IRI="#Music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#München"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Natalia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Novossibirsk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Poland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Roma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity"/>
+        <NamedIndividual IRI="#Sport"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Stockholm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Sweden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Thomas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#UK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Warsow"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Athens"/>
+        <NamedIndividual IRI="#Berlin"/>
+        <NamedIndividual IRI="#London"/>
+        <NamedIndividual IRI="#Lyon"/>
+        <NamedIndividual IRI="#Madrid"/>
+        <NamedIndividual IRI="#Milano"/>
+        <NamedIndividual IRI="#Moscow"/>
+        <NamedIndividual IRI="#München"/>
+        <NamedIndividual IRI="#Novossibirsk"/>
+        <NamedIndividual IRI="#Roma"/>
+        <NamedIndividual IRI="#Stockholm"/>
+        <NamedIndividual IRI="#Warsow"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Beach"/>
+        <NamedIndividual IRI="#Culture"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#Music"/>
+        <NamedIndividual IRI="#Sport"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#ClimateAverage"/>
+        <NamedIndividual IRI="#ClimateCold"/>
+        <NamedIndividual IRI="#ClimateHot"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#France"/>
+        <NamedIndividual IRI="#Germany"/>
+        <NamedIndividual IRI="#Greece"/>
+        <NamedIndividual IRI="#Italy"/>
+        <NamedIndividual IRI="#Poland"/>
+        <NamedIndividual IRI="#Russia"/>
+        <NamedIndividual IRI="#Spain"/>
+        <NamedIndividual IRI="#Sweden"/>
+        <NamedIndividual IRI="#UK"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Thomas"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#Athens"/>
+        <NamedIndividual IRI="#Greece"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Beach"/>
+        <NamedIndividual IRI="#Athens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Beach"/>
+        <NamedIndividual IRI="#Roma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Beach"/>
+        <NamedIndividual IRI="#Stockholm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#Berlin"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Culture"/>
+        <NamedIndividual IRI="#Athens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Culture"/>
+        <NamedIndividual IRI="#Berlin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Culture"/>
+        <NamedIndividual IRI="#Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Culture"/>
+        <NamedIndividual IRI="#Milano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Culture"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Culture"/>
+        <NamedIndividual IRI="#Roma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasClimate"/>
+        <NamedIndividual IRI="#France"/>
+        <NamedIndividual IRI="#ClimateAverage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#Athens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#Berlin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#Lyon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#Milano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#München"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#Novossibirsk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#Roma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#Stockholm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+        <NamedIndividual IRI="#Warsow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasClimate"/>
+        <NamedIndividual IRI="#Germany"/>
+        <NamedIndividual IRI="#ClimateAverage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasClimate"/>
+        <NamedIndividual IRI="#Greece"/>
+        <NamedIndividual IRI="#ClimateHot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasClimate"/>
+        <NamedIndividual IRI="#Italy"/>
+        <NamedIndividual IRI="#ClimateHot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#Beach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#Culture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#Music"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#ClimateAverage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#ClimateCold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#Greece"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#Poland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#Sweden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Lili"/>
+        <NamedIndividual IRI="#UK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#London"/>
+        <NamedIndividual IRI="#UK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#Beach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#Culture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#Music"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#Sport"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#ClimateAverage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#ClimateCold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#ClimateHot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#Greece"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Louis"/>
+        <NamedIndividual IRI="#UK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#Lyon"/>
+        <NamedIndividual IRI="#France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#Madrid"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#Milano"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#Moscow"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Music"/>
+        <NamedIndividual IRI="#London"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Music"/>
+        <NamedIndividual IRI="#Lyon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Music"/>
+        <NamedIndividual IRI="#Milano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Music"/>
+        <NamedIndividual IRI="#Moscow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Music"/>
+        <NamedIndividual IRI="#München"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Music"/>
+        <NamedIndividual IRI="#Warsow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#München"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Beach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Culture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Music"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Sport"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#ClimateAverage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#ClimateCold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#ClimateHot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Greece"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Poland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#Sweden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <NamedIndividual IRI="#UK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#Novossibirsk"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasClimate"/>
+        <NamedIndividual IRI="#Poland"/>
+        <NamedIndividual IRI="#ClimateCold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#Roma"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasClimate"/>
+        <NamedIndividual IRI="#Russia"/>
+        <NamedIndividual IRI="#ClimateCold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasClimate"/>
+        <NamedIndividual IRI="#Spain"/>
+        <NamedIndividual IRI="#ClimateHot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Sport"/>
+        <NamedIndividual IRI="#Athens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Sport"/>
+        <NamedIndividual IRI="#Lyon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Sport"/>
+        <NamedIndividual IRI="#Milano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Sport"/>
+        <NamedIndividual IRI="#Novossibirsk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <NamedIndividual IRI="#Sport"/>
+        <NamedIndividual IRI="#Stockholm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#Stockholm"/>
+        <NamedIndividual IRI="#Sweden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasClimate"/>
+        <NamedIndividual IRI="#Sweden"/>
+        <NamedIndividual IRI="#ClimateCold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#Culture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#Gastronomy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#Sport"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#ClimateAverage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#ClimateHot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#Greece"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#Sweden"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#UK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasClimate"/>
+        <NamedIndividual IRI="#UK"/>
+        <NamedIndividual IRI="#ClimateAverage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <NamedIndividual IRI="#Warsow"/>
+        <NamedIndividual IRI="#Poland"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#Athens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2873</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#Berlin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1054</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasFreeTime"/>
+        <NamedIndividual IRI="#Lili"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#London"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">469</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasFreeTime"/>
+        <NamedIndividual IRI="#Louis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#Lyon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">465</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#Madrid"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1274</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#Milano"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">850</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#Moscow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2845</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#München"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">841</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasFreeTime"/>
+        <NamedIndividual IRI="#Natalia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#Novossibirsk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6238</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#Roma"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1420</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#Stockholm"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1871</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasFreeTime"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsDistance"/>
+        <NamedIndividual IRI="#Warsow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1591</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#HasActivity"/>
+        <ObjectProperty IRI="#IsActivityOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#HasCity"/>
+        <ObjectProperty IRI="#IsCityOf"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#HasClimate"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#IsCityOf"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#HasCity"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasActivity"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasCity"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasClimate"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasActivity"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasCity"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasClimate"/>
+        <Class IRI="#Climate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsActivityOf"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsCityOf"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WantsActivity"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WantsClimate"/>
+        <Class IRI="#Climate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WantsCountry"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasFreeTime"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IsDistance"/>
+        <Class IRI="#City"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasFreeTime"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IsDistance"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
